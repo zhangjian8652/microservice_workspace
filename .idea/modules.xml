@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-vcard-sdk-java/api-vcard-sdk-java.iml" filepath="$PROJECT_DIR$/api-vcard-sdk-java/api-vcard-sdk-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matchmove-api/matchmove-api.iml" filepath="$PROJECT_DIR$/matchmove-api/matchmove-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice_workspace.iml" filepath="$PROJECT_DIR$/.idea/microservice_workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallet-service/wallet-service.iml" filepath="$PROJECT_DIR$/wallet-service/wallet-service.iml" />
+    </modules>
+  </component>
+</project>
