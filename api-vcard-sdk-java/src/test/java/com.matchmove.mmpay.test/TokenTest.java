@@ -20,12 +20,16 @@ public class TokenTest {
     public void test() throws Exception {
         Security.addProvider(new BouncyCastleProvider());
 
-        String host = "https://beta-api.mmvpay.com/sg/v1";
-        String key = "<ConsumerKey>";
-        String secret = "<ConsumerSecret>";
+      //  String host = "https://beta-api.mmvpay.com/sg/v1";
+        String host = "https://beta-api.mmvpay.com/sgmc/v1";
+        //String key = "<ConsumerKey>";
+        String key = "tOp5M3EfdBhdindGD4XTpzExjduVAE4v";
+        // String secret = "<ConsumerSecret>";
+        String secret = "6PvRSshWW8Jib1yDpQecjwdl5HdTAuNXrB5wD7zJS2iSPLmBzPwa2hVjqCENNnJE";
 
-        String user = "someone@email.com";
-        String password = "********";
+       // String user = "someone@email.com";
+        String user = "zhang.jian@globalroam.com";
+        String password = "942645426zj";
 
         // Initialize
         Connection connection = new Connection(host, key, secret);
