@@ -29,7 +29,6 @@ public class WalletTest extends BaseTest{
 
     @Test
     public void getWallet() throws UnsupportedEncodingException, NoSuchAlgorithmException, ResourceException, URISyntaxException, UnsupportedMethodException, InvalidKeyException, InvalidKeySpecException, ShortBufferException, NoSuchPaddingException, BadPaddingException, InvalidAlgorithmParameterException, NoSuchProviderException, IllegalBlockSizeException {
-        Map<String, String> userData = new HashMap<String, String>();
 
         if (this.connection.authenticate(user)) {
             System.out.println("Already authenticated");
